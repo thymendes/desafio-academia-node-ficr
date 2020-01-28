@@ -22,6 +22,8 @@ Neste desafio você deverá desenvolver uma api que retorna um currículo dinâm
 
 * Utilizar ferramentas de qualidade de código: [Eslint](https://www.npmjs.com/package/eslint) e [EditorConfig](https://editorconfig.org/)
 
+* Implementar as requisições aos serviços em paralelo, visto que um serviço não depende do outro
+
 * Sinta-se livre para adicionar features ao seu gosto. Exemplo: tradução do conteúdo utilizando flags na requisição, como mostrado abaixo.
 
 ````http
