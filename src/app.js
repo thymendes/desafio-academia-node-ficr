@@ -1,16 +1,22 @@
-const express = require('express')
+require("dotenv").config();
+const express = require("express");
 
-class AppController {
-    contructo(){
-        this.app = express()
-        this.middlewares()
-        this.routes()
-    }
-    middlewares(){
+const router = require("./routes");
 
-    }
+class App {
+  constructor() {
+    this.express = express();
+    this.middlewares();
+    this.routes();
+  }
 
-    routes(){
-        this.app.use()
-    }
+  middlewares() {
+    this.express.use(express.json());
+  }
+
+  routes() {
+    this.express.use(router);
+  }
 }
+
+module.exports = new App().express;
