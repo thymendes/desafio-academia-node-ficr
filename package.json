@@ -2,7 +2,7 @@
   "name": "desafio-academia-node-ficr",
   "version": "1.0.0",
   "description": "Neste desafio você deverá desenvolver uma api que retorna um currículo dinâmico. Para isso, você deverá comunicar-se com dois serviços para capturar informações. A api do Facebook e a api do Github.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
