@@ -26,8 +26,6 @@
     "axios": "^0.19.2"
   },
   "devDependencies": {
-    "axios": "^0.19.2",
-    "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
     "nodemon": "^2.0.2"
   }
