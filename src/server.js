@@ -1,4 +1,4 @@
 const app = require("./app");
-//require('dotenv').config()
+require('dotenv').config()
 
-server.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3000);
