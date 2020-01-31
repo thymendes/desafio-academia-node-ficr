@@ -1,9 +1,8 @@
 const express = require ('express')
 const routes = express.Router()
 
-const GithubController = require ('./services/github')
-const FacebookController = require ('./controllers/FacebookController')
+const ResumeController = require ('./controllers/ResumeController')
 
-routes.get('/github', GithubController.consulta)
+routes.get('/resume', ResumeController.consulta)
 
 module.exports = routes 
